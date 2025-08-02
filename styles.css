@@ -11,7 +11,7 @@ body {
   background: #081b29;
 }
 
-/* Header and Navigation */
+
 .header {
   position: fixed;
   top: 0;
@@ -52,7 +52,7 @@ body {
   color: #0ef;
 }
 
-/* Home Section */
+
 .home {
   width: 100%;
   height: 100vh;
@@ -145,7 +145,7 @@ body {
   box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan;
 }
 
-/* About Section */
+
 .about {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -179,7 +179,7 @@ body {
   margin-bottom: 4rem;
 }
 
-/* Experiences Section */
+
 .sub-title {
   text-align: center;
   font-size: 60px;
@@ -292,7 +292,7 @@ body {
 
 
 
-/* Portfolio Section */
+
 .main-text {
   padding-top: 130px;
 }
@@ -348,7 +348,7 @@ body {
   height: 100%;
 }
 
-/* Contact Section */
+
 .contact {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -436,7 +436,7 @@ body {
   box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan;
 }
 
-/* Footer */
+
 .last-text {
   text-align: center;
   padding: 25px 0;
@@ -444,7 +444,7 @@ body {
   margin-top: 70px;
 }
 
-/* Scroll to top */
+
 .top {
   position: fixed;
   bottom: 2.1rem;
@@ -459,7 +459,6 @@ body {
   border-radius: 0.5rem;
 }
 
-/* Animations */
 @keyframes slideRight {
   from { transform: translateX(-100px); opacity: 0; }
   to { transform: translateX(0); opacity: 1; }
@@ -478,4 +477,5 @@ body {
 @keyframes slideBottom {
   from { transform: translateY(-100px); opacity: 0; }
   to { transform: translateY(0); opacity: 1; }
+
 }
